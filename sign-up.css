@@ -116,4 +116,7 @@ a {
     .sec {
         border-radius: 0;
     }
+    .indie {
+        padding-left: 10px;
+    }
 }
