@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    scroll-behavior: smooth;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #EDCEF4;
+    gap: 480px;
+    padding: 20px;
+    width: 100%;
+}
+nav button {
+    margin-top: -10px;
+}
+.sec {
+    display: flex;
+    gap:40px;
+}
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.avatar {
+    height: 8vh;
+    margin-left: -270px;
+    margin-bottom: 15px;
+}
+.one {
+    background-color: #EDCEF4; 
+}
+.sec3 {
+    padding-top: 20px;
+    line-height: 4vh;
+}
+.sec3 h1 {
+    font-size: 6vh;
+    padding-bottom: 15px;
+    line-height: 7vh;
+}
+button {
+    background-color: #664EFC;
+    color: white;
+    border: none;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+button:hover {
+    transform: scale(1.1);
+}
+span {
+    color: #664EFC;
+    font-weight: bold;
+}
+h5 {
+    font-size: 2.8vh;
+}
+.two {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.two h2 {
+    font-size: 4.5vh;
+    padding-bottom: 10px;
+}
+.two p {
+    line-height: 4vh;
+    padding-bottom: 20px;
+}
+.three {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.feed {
+    padding-top: 70px;
+}
+.feed h2 {
+    padding-bottom: 20px;
+    font-size: 4.5vh;
+}
+.feed p {
+    line-height: 4vh;
+    padding-bottom: 20px;
+}
+.four {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #FDFCF9;
+}
+.four h4 {
+    padding-bottom: 20px;
+    font-size: 3vh;
+}
+.four p {
+    color: #4F4F4F;
+}
+.p1 {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    .sec1, .two {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .three {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .four {
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 10px;
+        padding-left: 20px;
+    }
+    .icon {
+        height: 20vh;
+        margin-left: 20px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .mockup {
+        height: 30vh;
+    }
+    .avatar {
+        height: 5vh;
+        padding-left: 100px;
+    }
+}
